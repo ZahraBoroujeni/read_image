@@ -1,0 +1,9 @@
+<launch>
+
+  <node name="read_image_node" pkg="read_image" type="read_image_node" output="screen" > 
+    <param name="cam_w"                         type="int"    value="640"/>  
+    <param name="cam_h"                         type="int"    value="480"/> 
+    <param name="camera_name"     				type="string"   value="app/camera/rgb/image_raw"/>      
+    
+  </node>
+</launch>
